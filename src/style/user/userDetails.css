@@ -1,0 +1,131 @@
+.user-details-container {
+    padding: 20px;
+    background-color: var(--light-blue-color);
+    font-family: var(--inter-font);
+  }
+  
+  .user-card {
+    background-color: var(--white-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(224, 139, 139, 0.1);
+    overflow: hidden;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .user-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--dark-yellow-color);
+  }
+  
+  .user-profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+
+.user-section video {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    max-width: 200px;
+    margin-left: 20px;
+    min-height: 200px;
+  }
+  
+  
+  .user-info h1 {
+    font-size: 1.5em;
+    margin: 0;
+    color: var(--white-color);
+  }
+  
+  .user-info p {
+    margin: 5px 0;
+    color: var(--white-color);
+  }
+  
+  .user-body {
+    padding: 20px;
+  }
+  
+  .user-section {
+    margin-bottom: 20px;
+  }
+  
+  .user-section h2 {
+    font-size: 1.2em;
+    border-bottom: 2px solid var(--light-gray-color);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    background-color: var(--light-yellow-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .user-section p {
+    margin: 5px 0;
+  }
+  
+  .user-footer {
+    padding: 20px;
+    background-color: var(--light-yellow-color);
+  }
+  
+  .user-footer h2 {
+    font-size: 1.2em;
+    margin: 0 0 10px 0;
+  }
+  
+  .user-footer p {
+    margin: 5px 0;
+  }
+  .applications-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .application-item{
+    /* background: var(--dark-yellow-color); */
+    background: var(--light-yellow-color);;
+    padding: 20px;
+    margin: 30px 0;
+    font-family: var(--inter-font) ;
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-x: scroll;
+  }
+  
+  .user-tabs {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .user-tab {
+    flex: 1;
+    background-color: var(--dark-yellow-color); /* Add a background color for better visibility */
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    color: var(--black-color); /* Ensure correct variable name */
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add transition for smooth color change */
+}
+
+.user-tab.active {
+    background-color: var(--light-blue-color); /* Ensure correct variable name */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: var(--black-color); /* Ensure text color changes as needed */
+}
